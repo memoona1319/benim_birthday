@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#100b12">
+    <meta name="description" content="A special birthday surprise made with love.">
+
+    <title>For My Bestu ♡ | Birthday Surprise</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- BACKGROUND EFFECTS -->
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+
+    <div id="hearts-container" aria-hidden="true"></div>
+    <div id="confetti-container" aria-hidden="true"></div>
+
+
+    <!-- OPENING ENVELOPE -->
+    <section class="intro-screen" id="intro-screen">
+
+        <div class="intro-stars">✦　✧　♡　✧</div>
+
+        <p class="eyebrow">A LITTLE SOMETHING FOR YOU</p>
+
+        <h1>Hey, <em>Bestu ♡</em></h1>
+
+        <h2 class="intro-name">Muhammad Saad ♥️🧿♾️</h2>
+
+        <p class="intro-text">
+            Someone has a little surprise waiting just for you.
+        </p>
+
+        <button class="envelope-button" id="envelope-button" type="button">
+
+            <span class="envelope">
+                <span class="envelope-back"></span>
+                <span class="envelope-letter">♡</span>
+                <span class="envelope-flap"></span>
+                <span class="envelope-front"></span>
+                <span class="envelope-heart">♥</span>
+            </span>
+
+            <span class="envelope-label">TAP TO OPEN YOUR GIFT</span>
+
+        </button>
+
+        <p class="intro-bottom">Made with love, just for you ♡</p>
+
+    </section>
+
+
+    <!-- MAIN WEBSITE -->
+    <div class="main-site" id="main-site" inert>
+
+
+        <!-- NAVBAR -->
+        <header class="navbar">
+
+            <a href="#home" class="logo">
+                Dear <span>Bestu ♡</span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                type="button"
+                aria-expanded="false"
+                aria-controls="nav-links"
+                aria-label="Toggle navigation">
+
+                ☰
+
+            </button>
+
+            <nav class="nav-links" id="nav-links">
+
+                <a href="#home">Home</a>
+                <a href="#countdown">Countdown</a>
+                <a href="#memories">Memories</a>
+                <a href="#video">Videos</a>
+                <a href="#birthday">Surprise</a>
+                <a href="#letter">Letter</a>
+
+            </nav>
+
+            <a href="#birthday" class="nav-cta">
+                Make a Wish ✨
+            </a>
+
+        </header>
+
+
+        <main>
+
+
+            <!-- HERO SECTION -->
+            <section class="hero section" id="home">
+
+                <div class="hero-content">
+
+                    <p class="eyebrow">
+                        <span class="status-dot"></span>
+                        TODAY IS ALL ABOUT YOU
+                    </p>
+
+                    <h1>
+                        The world got<br>
+                        luckier when<br>
+                        <em id="typed-heading">you arrived.</em>
+                    </h1>
+
+                    <p class="hero-description">
+                        To my best friend, my partner in silly conversations,
+                        my keeper of secrets, and one of the most beautiful
+                        souls in my life. Today, this little corner of the
+                        internet belongs entirely to you.
+                    </p>
+
+                    <div class="hero-actions">
+
+                        <a href="#birthday" class="button button-primary">
+                            Your Surprise ♡
+                        </a>
+
+                        <a href="#memories" class="button button-outline">
+                            Our Memories ↓
+                        </a>
+
+                    </div>
+
+                    <p class="hero-footnote">
+                        ✧ A little website, a lot of love.
+                    </p>
+
+                </div>
+
+
+                <div class="hero-visual">
+
+                    <div class="hero-glow"></div>
+
+                    <div class="portrait-frame">
+
+                        <!-- HERO IMAGE -->
+                        <img
+                            src="bestu2.jpg"
+                            alt="A favourite memory with my best friend">
+
+                        <div class="portrait-caption">
+
+                            <span>My favourite person ♡</span>
+                            <span>Always &amp; forever</span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="floating-note note-one">
+                        ✦ One in a million
+                    </div>
+
+                    <div class="floating-note note-two">
+                        ♡ My forever Bestu ♡
+                    </div>
+
+                </div>
+
+
+                <a class="scroll-hint" href="#countdown">
+                    SCROLL TO FEEL THE LOVE ↓
+                </a>
+
+            </section>
+
+
+            <!-- FRIENDSHIP STRIP -->
+            <div class="intro-strip">
+
+                <span>MORE LAUGHTER</span>
+                <span>✦</span>
+                <span>MORE MEMORIES</span>
+                <span>✦</span>
+                <span>MORE ADVENTURES</span>
+                <span>✦</span>
+                <span>ALWAYS US</span>
+
+            </div>
+
+
+            <!-- COUNTDOWN -->
+            <section class="countdown-section section" id="countdown">
+
+                <p class="eyebrow">THE BIG DAY IS SPECIAL</p>
+
+                <h2>Counting down to <em>your day.</em></h2>
+
+                <p class="muted">
+                    Every second brings us closer to celebrating you.
+                </p>
+
+
+                <div class="countdown">
+
+                    <div class="time-card">
+                        <span id="days">00</span>
+                        <small>Days</small>
+                    </div>
+
+                    <div class="time-card">
+                        <span id="hours">00</span>
+                        <small>Hours</small>
+                    </div>
+
+                    <div class="time-card">
+                        <span id="minutes">00</span>
+                        <small>Minutes</small>
+                    </div>
+
+                    <div class="time-card">
+                        <span id="seconds">00</span>
+                        <small>Seconds</small>
+                    </div>
+
+                </div>
+
+                <p id="countdown-message" class="countdown-message">
+                    Something beautiful is on its way ♡
+                </p>
+
+            </section>
+
+<!-- MEMORIES GALLERY -->
+<section class="memories-section section" id="memories">
+
+    <div class="section-heading">
+        <p class="eyebrow">LITTLE MOMENTS, BIG FEELINGS</p>
+
+        <h2>Our kind of <em>forever.</em></h2>
+
+        <p class="muted">
+            The silly pictures, the happiest smiles, and the
+            moments I wish I could relive a thousand times.
+        </p>
+    </div>
+
+    <div class="memory-folder">
+        <div class="folder-icon">📁</div>
+
+        <h3>Our Memory Box</h3>
+
+        <p>
+            30 beautiful pictures, countless memories, and
+            moments that will always be special. ♡
+        </p>
+
+        <a href="gallery.html" class="button button-primary">
+            Open Our Memories ♡
+        </a>
+    </div>
+
+    <p class="gallery-signature">
+        Different days, different memories, same special person. ♡
+    </p>
+
+</section>
+
+
+            <!-- VIDEOS -->
+            <section class="video-section section" id="video">
+
+                <div class="video-copy">
+
+                    <p class="eyebrow">
+                        OUR LITTLE MEMORY FILM
+                    </p>
+
+                    <h2>
+                        Press play.<br>
+                        <em>Feel everything.</em>
+                    </h2>
+
+                    <p class="muted">
+                        Some memories deserve more than a place in a camera
+                        roll. Here's a little film for all the smiles,
+                        laughter and moments worth keeping.
+                    </p>
+
+                    <p class="handwritten">
+                        Made for you, Bestu ♡
+                    </p>
+
+                </div>
+
+
+                <div class="video-grid">
+
+                    <!-- FIRST VIDEO -->
+                    <div class="video-frame">
+
+                        <video
+                            controls
+                            playsinline
+                            preload="metadata"
+                            poster="bestu2.jpg">
+
+                            <source
+                                src="friendship.mp4"
+                                type="video/mp4">
+
+                            Your browser does not support video playback.
+
+                        </video>
+
+                        <p class="video-caption">
+                            OUR MEMORIES · OUR STORY
+                        </p>
+
+                    </div>
+
+
+                    <!-- SECOND VIDEO -->
+                    <div class="video-frame">
+
+                        <video
+                            controls
+                            playsinline
+                            preload="metadata"
+                            poster="bestu3.jpg">
+
+                            <source
+                                src="friendship2.mp4"
+                                type="video/mp4">
+
+                            Your browser does not support video playback.
+
+                        </video>
+
+                        <p class="video-caption">
+                            SMILES WE'LL ALWAYS KEEP
+                        </p>
+
+                    </div>
+                     <div class="video-frame">
+
+                        <video
+                            controls
+                            playsinline
+                            preload="metadata"
+                            poster="bestu13.jpg">
+
+                            <source
+                                src="friendship3.mp4"
+                                type="video/mp4">
+
+                            Your browser does not support video playback.
+
+                        </video>
+
+                        <p class="video-caption">
+                            SMILES WE'LL ALWAYS KEEP
+                        </p>
+
+                    </div>
+                     <div class="video-frame">
+
+                        <video
+                            controls
+                            playsinline
+                            preload="metadata"
+                            poster="bestu11.jpeg">
+
+                            <source
+                                src="friendship4.mp4"
+                                type="video/mp4">
+
+                            Your browser does not support video playback.
+
+                        </video>
+
+                        <p class="video-caption">
+                            SMILES WE'LL ALWAYS KEEP
+                        </p>
+
+                    </div>
+                     <div class="video-frame">
+
+                        <video
+                            controls
+                            playsinline
+                            preload="metadata"
+                            poster="bestu13.jpg">
+
+                            <source
+                                src="friendship5.mp4"
+                                type="video/mp4">
+
+                            Your browser does not support video playback.
+
+                        </video>
+
+                        <p class="video-caption">
+                            SMILES WE'LL ALWAYS KEEP
+                        </p>
+
+                    </div>
+                     <div class="video-frame">
+
+                        <video
+                            controls
+                            playsinline
+                            preload="metadata"
+                            poster="bestu8.jpg">
+
+                            <source
+                                src="friendship6.mp4"
+                                type="video/mp4">
+
+                            Your browser does not support video playback.
+
+                        </video>
+
+                        <p class="video-caption">
+                            SMILES WE'LL ALWAYS KEEP
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- BIRTHDAY CAKE -->
+            <section class="birthday-section section" id="birthday">
+
+                <p class="eyebrow">
+                    IT'S YOUR TIME TO SHINE
+                </p>
+
+                <h2>
+                    A wish for the <em>birthday star.</em>
+                </h2>
+
+                <p class="muted cake-instruction">
+                    Make a wish, Bestu! Tap the cake to blow out the candles. 🎂
+                </p>
+
+
+                <button
+                    class="cake-button"
+                    id="cake-button"
+                    type="button"
+                    aria-label="Blow out the birthday cake candles">
+
+                    <span class="cake-sparkle sparkle-left">✦</span>
+
+                    <span class="cake-emoji" id="cake-emoji">
+                        🎂
+                    </span>
+
+                    <span class="cake-sparkle sparkle-right">✧</span>
+
+                </button>
+
+
+                <p id="cake-message" class="cake-message">
+                    Close your eyes and make a beautiful wish. ♡
+                </p>
+
+
+                <button
+                    class="button button-primary"
+                    id="surprise-button"
+                    type="button"
+                    aria-expanded="false"
+                    aria-controls="surprise-reveal">
+
+                    Open Your Birthday Surprise ✨
+
+                </button>
+
+
+                <!-- BIRTHDAY SURPRISE MESSAGE -->
+                <div
+                    class="surprise-reveal"
+                    id="surprise-reveal"
+                    hidden
+                    aria-live="polite">
+
+                    <p class="eyebrow">
+                        A WISH FROM MY HEART
+                    </p>
+
+                    <h3>Happy Birthday Bestu! ♡</h3>
+
+                    <p>
+                        May your smile never fade, may your dreams find
+                        their way to you, and may life give you a thousand
+                        reasons to be happy. You deserve the softest days,
+                        the biggest laughs and the most beautiful kind of love.
+
+                        🤍 Sen benim en güzel hayalimsin, en derin duamsın
+                        ve sonsuza kadar seveceğim tek kalpsin. 🫀♾️
+                    </p>
+
+
+                    <p>
+                        Dear Saad ❤️🎂,
+
+                        Happy Birthday to my favourite human! 🫶🏻💗
+
+                        I honestly don't know how to explain how special
+                        you are to me. You're not just a friend; you're
+                        someone who can make me smile without even trying.
+                        😂❤️
+
+                        You make ordinary moments feel special, and even
+                        your silly little things mean more to me than you
+                        know.
+
+                        I'm genuinely lucky to have you in my life.
+
+                        I hope this new year brings you endless happiness,
+                        success, peace, and everything your heart wishes for.
+
+                        May your smile never fade and may you always have
+                        reasons to be happy.
+                    </p>
+
+
+                    <p>
+                        ✨ And one more thing…
+
+                        You might never fully understand how much you mean
+                        to me, but I hope you always remember that you're
+                        someone truly special.
+
+                        Some feelings are difficult to put into words,
+                        and maybe that's what makes them beautiful.
+
+                        ❤️‍🩹 Stay the same amazing person, keep smiling,
+                        and never forget how important you are.
+
+                        Happy Birthday once again, Muhammad Saad! 🎁🎈❤️
+
+                        With lots of love,
+                        Your Bestie Memoona 💗
+                    </p>
+
+
+                    <p class="surprise-signature">
+                        The world is better with you in it. ✧
+                    </p>
+
+                </div>
+
+            </section>
+
+
+            <!-- BIRTHDAY LETTER -->
+            <section class="letter-section section" id="letter">
+
+                <article class="letter-card">
+
+                    <div class="letter-top">
+
+                        <span>✧ A LETTER FROM MY HEART ✧</span>
+                        <span class="letter-heart">♡</span>
+
+                    </div>
+
+
+                    <h2>
+                        To my favourite <em>human,</em>
+                    </h2>
+
+
+                    <p class="letter-greeting">
+                        Happy Birthday meri jaan! ❤️🎂
+                    </p>
+
+
+                    <p>
+                        Aaj ka din mere liye bhi bohat special hai kyunki
+                        aaj woh insaan duniya mein aaya jis ne meri life
+                        ko itna beautiful bana diya. 🥹❤️ Aap meri life
+                        ka sirf ek hissa nahi, aap meri khushi, mera sukoon
+                        aur meri sab se pyari dua hain. 🌸
+                    </p>
+
+
+                    <p>
+                        Aapke saath guzara hua har moment mere liye precious
+                        hai. Aapki ek smile mera mood change kar deti hai
+                        aur aapki presence mujhe ek ajeeb sa sukoon deti hai.
+                        🫶🏻🤍
+                    </p>
+
+
+                    <p>
+                        Meri dua hai ke Allah aapki zindagi ko hamesha
+                        khushiyon, kamyabi, sehat aur mohabbat se bhar de.
+                        Aapki har dua qubool ho, har dream complete ho aur
+                        aapki smile kabhi kam na ho. 🤲🏻✨
+                    </p>
+
+
+                    <p>
+                        Thank you for being such a beautiful part of my life.
+                        Apko shayad idea bhi nahi ke aap meri life mein
+                        kitni importance rakhte hain. Aap se baat karna,
+                        aapke saath time spend karna aur aapki little
+                        little things notice karna sab mere liye special hai.
+                        🥹🫶🏻
+                    </p>
+
+
+                    <p>
+                        Main chahti hoon ke aapki life mein kabhi happiness
+                        ki kami na ho. Jo aapka dil chahe, Allah Pak aapko
+                        us se bhi zyada ata kare jo aapke haq mein behtar ho.
+                        Aap hamesha hanste rahen, khush rahen aur apni
+                        beautiful smile kabhi na khoyein. 😊🌸
+                    </p>
+
+
+                    <p>
+                        Kuch log life mein sirf aate hain aur kuch log
+                        life ko hi beautiful bana dete hain. Aap unhi
+                        special logon mein se hain. Aap meri zindagi ka
+                        woh beautiful chapter hain jise main kabhi end
+                        nahi karna chahti. 🌷
+                    </p>
+
+
+                    <p>
+                        Aaj aapke birthday par meri bas ek dua hai:
+                        Allah aapko har woh khushi de jis ke aap haqdar
+                        hain, aapki har mushkil asaan kare aur aapki
+                        zindagi ko endless happiness se bhar de. 🤲🏻✨
+                    </p>
+
+
+                    <p>
+                        You deserve all the happiness in the world.
+                        May every tomorrow be more beautiful than today.
+                        Ameen. 🥹♥️🫶🏻
+                    </p>
+
+
+                    <p class="letter-signature">
+                        All my love today and always. ♡
+                    </p>
+
+                </article>
+
+            </section>
+
+
+            <!-- SECRET MESSAGE -->
+            <section class="secret-section section">
+
+                <p class="eyebrow">
+                    JUST BETWEEN US
+                </p>
+
+                <h2>
+                    One last little <em>secret.</em>
+                </h2>
+
+                <p class="muted">
+                    Some feelings deserve their own little space.
+                    Open this when you're ready. ♡
+                </p>
+
+
+                <button
+                    class="button button-outline"
+                    id="secret-button"
+                    type="button"
+                    aria-expanded="false"
+                    aria-controls="secret-message">
+
+                    Reveal My Secret Message 🔐
+
+                </button>
+
+
+                <div
+                    class="secret-message"
+                    id="secret-message"
+                    hidden
+                    aria-live="polite">
+
+                    <p>
+                        Happy Birthday meri jaan. 🌸❤️
+
+                        Aap sirf ek special person nahi, meri happiness
+                        aur meri sab se beautiful feeling hain.
+
+                        Aapke saath har moment special lagta hai.
+                        Aapki smile meri favourite hai aur aapka saath
+                        meri life ko aur beautiful banata hai. 🫶🏻🤍
+
+                        <br><br>
+
+                        Main dua karti hoon ke aapki life mein hamesha
+                        happiness, success, good health aur endless love
+                        rahe.
+
+                        Aapke saare dreams poore hon aur aap hamesha
+                        aise hi smile karte rahen.
+
+                        Thank you for being such a beautiful part of
+                        my life. 🥹💗
+
+                        <br><br>
+
+                        Out of all the people I could have met in this
+                        world, I'm so glad our paths crossed.
+
+                        You're one of my favourite chapters, and if I
+                        could choose again, I'd still choose you.
+
+                        Every single time. ♡
+                    </p>
+
+                    <span>
+                        Keep this one close to your heart. ✧
+                    </span>
+
+                </div>
+
+            </section>
+
+        </main>
+
+
+        <!-- FOOTER -->
+        <footer class="footer">
+
+            <a href="#home" class="footer-logo">
+                Dear Bestu ♡
+            </a>
+
+            <p>
+                Made with love, just for you.
+            </p>
+
+            <p class="footer-small">
+                A little website, a lifetime of memories ✧
+            </p>
+
+            <a class="back-top" href="#home">
+                Back to top ↑
+            </a>
+
+        </footer>
+
+    </div>
+
+</body>
+</html>
